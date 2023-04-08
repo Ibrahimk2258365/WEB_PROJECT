@@ -1,0 +1,30 @@
+*{
+    block-size: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+ font-size:20px;
+    padding:0px;
+   
+}
+#main_heading{
+   padding: 2%;
+    text-align: center;
+    font-size: xxx-large;
+}
+form{
+    background-color: rgb(122, 94, 177);
+}
+#button{
+    background-color: black;
+    position: relative;
+    top: 0rem;
+    height: 3rem;
+}
+#acdmline{
+    width: 74rem;
+}
+.formline{
+    width:1rem;
+}

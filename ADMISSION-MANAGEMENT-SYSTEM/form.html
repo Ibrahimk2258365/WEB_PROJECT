@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="Admission_form">
+    <h1 id="main_heading">FORM FOR ADMISSION</h1>
+    <hr class="fomrline">
+    <div class="container">
+        <h2>Contact Information</h2>
+        <p>Name:* <br><br><input type="text" placeholder="FirstName"  size="50%" > <input type="text" placeholder="Family Name" size="50%" ></p>
+    
+        
+        
+        <p>DOB <input type="date" size="100px" ></p>
+        <!-- <select name="gender" id="">
+            <option value="">Male</option>
+            <option value="">Female</option>
+            <option value="">N/A</option>
+        </select> -->
+       
+         <p size="100%">
+            Gender     M<input type="radio"  name="Gender" id="1"> F<input type="radio" name="Gender" id="1"> N/A <input type="radio"  name="Gender" id="1">
+
+         </p>        
+        <P>Address:<br><br>
+            <textarea type="text" name="address" id="address" placeholder="Enter Your Address" cols="50" rows="10"></textarea>
+          </P>
+          <hr id="acdmline">
+        <h2>Academic Detail</h2>
+        <p>FS.c Marks <input type="text" placeholder="Marks Obtain "size=50%">
+            <input type="text"placeholder="Total Marks "size="50%">
+        </p> 
+        <p>
+            Matric Marks <input type="text" placeholder="Marks Obtain"size="48%">
+        <input type="text" placeholder="Total Marks"size="50%">
+        </p>
+        <h2>University</h2>
+
+    <span> Department
+        <select name="department" id=""> 
+            <option value="">CIVIL ENGINEERING</option>
+         <option value="">CS</option>
+         <option value="">PHARMACE</option>
+     </select>
+    </span>
+    <span>program
+     <select name="program name" id="">
+         <option value="">Software ENGINEERING </option>
+         <option value="">computer science </option>
+         <option value="">Dfarm </option>
+     </select>
+    </span>
+    <br><br><br>
+        
+        <div id="btn" style="text-align: center; ">
+            <div id="button">
+       <input type="button" value="SUBMIT NOW"
+       width="20px" >
+    </div>
+    </div>
+        
+
+     <!-- <input type="text"> -->
+
+    </div>
+</form>
+</body>
+</html>
